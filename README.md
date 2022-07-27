@@ -1,0 +1,1 @@
+# Exer-Analisador_idades_js
