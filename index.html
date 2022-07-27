@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>exe2</title>
+    </head>
+    <body>
+        <header>
+            <div class="titulo">
+                <h1>Verificador de Idade</h1>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <form>
+                    <div class="ano_container">
+                        <p>Ano de nascimento:</p>
+                        <input id="ano" type="number">
+                    </div>
+                    <div class="sexo_container">
+                        <p>
+                            Sexo:
+                            <input type="radio" name="sexo" id="m" value="Masculino" checked>
+                            <label for="m">Masculino</label>
+                            <input type="radio" name="sexo" id="f" value="Feminino">
+                            <label for="f">Feminino</label>
+                        </p>
+                    </div>
+                    <input type="button" id="btn" value="Verificar">
+                </form>
+                <p class="msg">Preencha os dados acima para ver o resultado!</p>
+        </main>
+        
+        <footer>
+            <div class="footer">
+                <h2>© IdadeInteligente</h2>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

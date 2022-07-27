@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(87, 87, 245);
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.titulo h1{
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    margin-top: 180px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    background: #fff;
+    width: 700px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 15px;
+    padding: 10px 10px 1px 25px;
+}
+
+.ano_container{
+    display: flex;
+}
+
+.ano_container #ano{
+    width: 100px;
+    height: 20px;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.sexo_container{
+    margin-top: -20px;
+}
+
+
+.main p{
+    font-size: 20px;
+}
+
+.msg{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.footer h2{
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+}
